@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cca85e3-6a59-4f05-8796-a14abb91948a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sample_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/integration/uesrs_signup_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/uesrs_signup_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -27,13 +24,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="uesrs_signup_test.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uesrs_signup_test.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/integration/uesrs_signup_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="345">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
@@ -104,6 +115,7 @@
         <option value="$PROJECT_DIR$/test/integration/uesrs_signup_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$APPLICATION_CONFIG_DIR$/rubymine.vmoptions" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -126,9 +138,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="553" />
+    <option name="x" value="464" />
     <option name="y" value="33" />
-    <option name="width" value="1116" />
+    <option name="width" value="1205" />
     <option name="height" value="995" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -154,7 +166,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="cont&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;users&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;appl&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;sign&#9;null&#9;null&#10;test&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/integration/uesrs_signup_test.rb&#10;timestamps&#9;null&#9;null&#10;applica&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;user&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;routes&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/config/routes.rb&#10;new.html&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb&#10;si&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/integration/uesrs_signup_test.rb&#10;route&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/config/routes.rb&#10;_err&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/shared/_error_messages.html.erb&#10;user_test&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/models/user_test.rb&#10;user.rb&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/models/user.rb&#10;cus&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;error&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/shared/_error_messages.html.erb&#10;new.htm&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb&#10;show&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/show.html.erb&#10;a&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;new&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb&#10;custo&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;applicat&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;footer&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/_footer.html.erb&#10;cust&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;foo&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/_footer.html.erb&#10;rails_de&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/_rails_default.html.erb&#10;app&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;users_her&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/helpers/users_helper.rb&#10;users_cont&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;gem&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/Gemfile&#10;show.ht&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/show.html.erb&#10;custom&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;application&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;gemf&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/Gemfile&#10;add_password&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/db/migrate/20180520011517_add_password_digest_to_users.rb&#10;test/fix&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/fixtures&#10;add&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/db/migrate/20180519111202_add_index_to_users_email.rb&#10;db/migrate/ad&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/db/migrate/20180519111202_add_index_to_users_email.rb&#10;user.&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/models/user.rb&#10;site&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/integration/site_layout_test.rb&#10;new.ht&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/home.html.erb&#10;static&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/controllers/static_pages_controller_test.rb&#10;conta&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/contact.html.erb&#10;lay&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/integration/site_layout_test.rb&#10;contact&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/contact.html.erb&#10;ap&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/helpers/application_helper.rb&#10;test_her&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/test_helper.rb&#10;header&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/_header.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="production&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/environments/production.rb&#10;cont&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;users&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;appl&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;sign&#9;null&#9;null&#10;test&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/integration/uesrs_signup_test.rb&#10;timestamps&#9;null&#9;null&#10;applica&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;user&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;routes&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/config/routes.rb&#10;new.html&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb&#10;si&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/integration/uesrs_signup_test.rb&#10;route&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/config/routes.rb&#10;_err&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/shared/_error_messages.html.erb&#10;user_test&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/models/user_test.rb&#10;user.rb&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/models/user.rb&#10;cus&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;error&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/shared/_error_messages.html.erb&#10;new.htm&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb&#10;show&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/show.html.erb&#10;a&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;new&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb&#10;custo&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;applicat&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;footer&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/_footer.html.erb&#10;cust&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;foo&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/_footer.html.erb&#10;rails_de&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/_rails_default.html.erb&#10;app&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;users_her&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/helpers/users_helper.rb&#10;users_cont&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;gem&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/Gemfile&#10;show.ht&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/show.html.erb&#10;custom&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;application&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/application.html.erb&#10;gemf&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/Gemfile&#10;add_password&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/db/migrate/20180520011517_add_password_digest_to_users.rb&#10;test/fix&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/fixtures&#10;add&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/db/migrate/20180519111202_add_index_to_users_email.rb&#10;db/migrate/ad&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/db/migrate/20180519111202_add_index_to_users_email.rb&#10;user.&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/models/user.rb&#10;site&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/integration/site_layout_test.rb&#10;new.ht&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/home.html.erb&#10;static&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/controllers/static_pages_controller_test.rb&#10;conta&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/contact.html.erb&#10;lay&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/integration/site_layout_test.rb&#10;contact&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/contact.html.erb&#10;ap&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/app/helpers/application_helper.rb&#10;test_her&#9;FILE&#9;file:///home/rnakamine/Development/rails-tutorial/sample_app/test/test_helper.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../codebase/my-portforio" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -298,7 +310,7 @@
       <workItem from="1527188593884" duration="3525000" />
       <workItem from="1527501618434" duration="33000" />
       <workItem from="1527597267032" duration="1950000" />
-      <workItem from="1527622196024" duration="281000" />
+      <workItem from="1527622196024" duration="1514000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1526326616708</created>
@@ -311,12 +323,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87354000" />
+    <option name="totallyTimeSpent" value="88587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="784" y="32" width="887" height="995" extended-state="0" />
+    <frame x="464" y="33" width="1205" height="995" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21420519" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3394191" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -354,8 +367,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/actionpack-5.1.4/lib/action_controller/metal/request_forgery_protection.rb" />
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/actionpack-5.1.4/lib/action_dispatch/routing/mapper.rb" />
     <entry file="file://$PROJECT_DIR$/app/models/application_record.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -610,10 +621,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/uesrs_signup_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="345">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
