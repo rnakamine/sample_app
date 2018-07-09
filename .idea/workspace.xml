@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cca85e3-6a59-4f05-8796-a14abb91948a" name="Default" comment="" />
+    <list default="true" id="4cca85e3-6a59-4f05-8796-a14abb91948a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/user_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -17,6 +28,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/sample_app@Development__sample_app.rcov" NAME="Development: sample_app Coverage Results" MODIFIED="1526330600912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@Rails_console__sample_app.rcov" NAME="Rails console: sample_app Coverage Results" MODIFIED="1531043027971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -40,80 +52,80 @@
       <file leaf-file-name="account_activations_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/account_activations_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="90">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/password_resets/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password_resets_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password_resets_test.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/integration/password_resets_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_helper.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_disposition_field.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/mail-2.7.0/lib/mail/fields/content_disposition_field.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/password_resets/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="puma.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.9.1/lib/puma.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="puma.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/puma.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="175" column="19" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users_signup_test.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/integration/users_signup_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            <state relative-caret-position="90">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -121,8 +133,8 @@
       <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+            <state relative-caret-position="183">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -144,20 +156,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" />
-        <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.5.0/gems/activerecord-5.1.4/lib/active_record/connection_adapters/abstract/schema_definitions.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20180516233428_create_users.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/test/integration/uesrs_signup_test.rb" />
         <option value="$APPLICATION_CONFIG_DIR$/rubymine.vmoptions" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
         <option value="$PROJECT_DIR$/test/integration/users_login_test.rb" />
         <option value="$PROJECT_DIR$/test/helpers/sessions_helper_test.rb" />
@@ -174,27 +178,35 @@
         <option value="$PROJECT_DIR$/app/views/users/_user.html.erb" />
         <option value="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/integration/users_index_test.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
-        <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" />
-        <option value="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/app/helpers/sessions_helper.rb" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
-        <option value="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" />
         <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
         <option value="$PROJECT_DIR$/app/controllers/account_activations_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/puma-3.9.1/lib/puma.rb" />
         <option value="$PROJECT_DIR$/config/puma.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/password_resets/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/mailers/user_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb" />
+        <option value="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.erb" />
+        <option value="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" />
+        <option value="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" />
+        <option value="$PROJECT_DIR$/app/views/password_resets/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/test/integration/password_resets_test.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/password_resets_controller.rb" />
       </list>
     </option>
   </component>
@@ -250,44 +262,7 @@
               <item name="sample_app" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="sessions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="fixtures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +274,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="produc&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/environments/production.rb&#10;seed&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/db/seeds.rb&#10;puma.rb&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/vendor/bundle/ruby/2.4.0/gems/puma-3.9.1/lib/puma.rb&#10;proc&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/Procfile&#10;puma&#9;null&#9;null&#10;produ&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/environments/production.rb&#10;users&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;userscontro&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;acc&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/account_activations_controller.rb&#10;user.rb&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/models/user.rb&#10;account&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/account_activations_controller.rb&#10;field_with&#9;null&#9;null&#10;for&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/_form.html.erb&#10;form&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/_form.html.erb&#10;user&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/users_signup_test.rb&#10;user_si&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/users_signup_test.rb&#10;session&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/sessions_controller.rb&#10;_form&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/_form.html.erb&#10;new.html&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb&#10;users_sign&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/users_signup_test.rb&#10;users_con&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;userscon&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/controllers/users_controller_test.rb&#10;user_test&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/models/user_test.rb&#10;user.yml&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/fixtures/users.yml&#10;u&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/_user.html.erb&#10;in&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/index.html.erb&#10;users_in&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/users_index_test.rb&#10;users.yml&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/fixtures/users.yml&#10;ind&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/index.html.erb&#10;user.&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/_user.html.erb&#10;index&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/index.html.erb&#10;user.html.erb&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/_user.html.erb&#10;users_index&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/users_index_test.rb&#10;gem&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/Gemfile&#10;site&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/site_layout_test.rb&#10;cus&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;heaer&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/layouts/_header.html.erb&#10;custo&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;index.ht&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/index.html.erb&#10;sess&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/sessions_controller.rb&#10;us&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;users_cont&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/controllers/users_controller_test.rb&#10;test&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/user_edit_test.rb&#10;edit&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/user_edit_test.rb&#10;users.co&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/assets/javascripts/users.coffee&#10;user_edit&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/user_edit_test.rb&#10;user.y&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/fixtures/users.yml&#10;user.ya&#9;null&#9;null&#10;user_con&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;new&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="pa&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/password_resets_controller.rb&#10;p&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/password_resets_controller.rb&#10;tes&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/password_resets_test.rb&#10;pass&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/password_resets_controller.rb&#10;pasw&#9;null&#9;null&#10;password&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/password_resets_controller.rb&#10;passwor&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/password_resets_controller.rb&#10;ed&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/password_resets/edit.html.erb&#10;password_resets_test&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/password_resets_test.rb&#10;edit&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/password_resets/edit.html.erb&#10;new.html&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/password_resets/new.html.erb&#10;user&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/models/user.rb&#10;user.rb&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/models/user.rb&#10;passwro&#9;null&#9;null&#10;account&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/account_activations_controller.rb&#10;accout&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/user_mailer/account_activation.text.erb&#10;passw&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/password_resets_controller.rb&#10;password_&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/password_resets_controller.rb&#10;edit.html&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/password_resets/edit.html.erb&#10;pre&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/mailers/previews/user_mailer_preview.rb&#10;reset&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/password_resets_controller.rb&#10;user_m&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/mailers/previews/user_mailer_preview.rb&#10;routes&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/routes.rb&#10;user_mailer&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/mailers/previews/user_mailer_preview.rb&#10;user_mail&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/mailers/user_mailer.rb&#10;acc&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/account_activations_controller.rb&#10;password_reset&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/password_resets_controller.rb&#10;new&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/sessions/new.html.erb&#10;sessions/new&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/sessions/new.html.erb&#10;session_new&#9;null&#9;null&#10;produc&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/environments/production.rb&#10;seed&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/db/seeds.rb&#10;puma.rb&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/vendor/bundle/ruby/2.4.0/gems/puma-3.9.1/lib/puma.rb&#10;proc&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/Procfile&#10;puma&#9;null&#9;null&#10;produ&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/environments/production.rb&#10;users&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;userscontro&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;field_with&#9;null&#9;null&#10;for&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/_form.html.erb&#10;form&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/_form.html.erb&#10;user_si&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/users_signup_test.rb&#10;session&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/sessions_controller.rb&#10;_form&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/_form.html.erb&#10;users_sign&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/users_signup_test.rb&#10;users_con&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;userscon&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/controllers/users_controller_test.rb&#10;user_test&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/models/user_test.rb&#10;user.yml&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/fixtures/users.yml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -323,7 +298,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: sample_app">
+  <component name="RunManager" selected="IRB console.Rails console: sample_app">
+    <configuration name="Rails console: sample_app" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="sample_app" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/bin/rails" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console development" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
+    </configuration>
     <configuration name="Development: sample_app" type="RailsRunConfigurationType" factoryName="Rails">
       <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
       <module name="sample_app" />
@@ -420,7 +413,13 @@
       <item itemvalue="Rake.spec: sample_app" />
       <item itemvalue="Rails.Production: sample_app" />
       <item itemvalue="Rails.Development: sample_app" />
+      <item itemvalue="IRB console.Rails console: sample_app" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="IRB console.Rails console: sample_app" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -454,7 +453,7 @@
       <workItem from="1530440136794" duration="247000" />
       <workItem from="1530440405150" duration="522000" />
       <workItem from="1530446535672" duration="33666000" />
-      <workItem from="1530937324491" duration="9334000" />
+      <workItem from="1530937324491" duration="25890000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1526326616708</created>
@@ -467,7 +466,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149304000" />
+    <option name="totallyTimeSpent" value="165860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,16 +481,17 @@
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.31074482" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32914287" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32855567" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50061053" side_tool="true" weight="0.38368246" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.328" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32790446" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32745314" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32745314" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993895" weight="0.38368246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49944875" visible="true" weight="0.31074482" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32967034" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32855567" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005513" side_tool="true" weight="0.30708182" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -501,7 +501,6 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32859176" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32855567" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,80 +519,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/bcrypt-3.1.11/lib/bcrypt/password.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/activemodel-5.1.4/lib/active_model/secure_password.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs24/open_ssl.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9951">
-          <caret line="1652" column="12" selection-start-line="1652" selection-start-column="12" selection-end-line="1652" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/helpers/sessions_helper_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -604,13 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -698,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -733,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/mailers/user_mailer_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
@@ -747,31 +655,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -813,31 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/account_activations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -866,6 +732,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.4.0/lib/ruby/2.4.0/openssl/ssl.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="326" column="10" selection-start-line="326" selection-start-column="10" selection-end-line="326" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/password_reset.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mailers/user_mailer_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/account_activations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/password_resets/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/mail-2.7.0/lib/mail/fields/content_disposition_field.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/password_resets/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/password_resets_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/password_resets_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
         </state>
       </provider>
     </entry>
