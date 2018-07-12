@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cca85e3-6a59-4f05-8796-a14abb91948a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_feed.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_user_info.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sample_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/carrier_wave.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/password_resets/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/password_resets/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -71,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="435">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -85,15 +65,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -119,8 +90,26 @@
       <file leaf-file-name="picture_uploader.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/uploaders/picture_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="135">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utilities.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/carrierwave-1.2.2/lib/carrierwave/utilities.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carrier_wave.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/initializers/carrier_wave.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -143,15 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_micropost.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/microposts/_micropost.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -169,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/app/mailers/application_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.html.erb" />
         <option value="$PROJECT_DIR$/app/views/user_mailer/account_activation.text.erb" />
@@ -213,13 +192,14 @@
         <option value="$PROJECT_DIR$/test/controllers/microposts_controller_test.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" />
-        <option value="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" />
         <option value="$PROJECT_DIR$/app/controllers/microposts_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/micropost.rb" />
         <option value="$PROJECT_DIR$/config/initializers/skip_image_resizing.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" />
         <option value="$PROJECT_DIR$/test/integration/microposts_interface_test.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/uploaders/picture_uploader.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/carrier_wave.rb" />
       </list>
     </option>
   </component>
@@ -270,6 +250,12 @@
               <item name="sample_app" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="initializers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -280,7 +266,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="mi&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/microposts_interface_test.rb&#10;skip&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/initializers/skip_image_resizing.rb&#10;micro&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/microposts_interface_test.rb&#10;micropost&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/models/micropost.rb&#10;micropost.rb&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/microposts_interface_test.rb&#10;pictu&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/uploaders/picture_uploader.rb&#10;form&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/shared/_micropost_form.html.erb&#10;micropo&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/microposts_controller.rb&#10;up&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/uploaders/picture_uploader.rb&#10;gem&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/Gemfile&#10;_form&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/shared/_micropost_form.html.erb&#10;pic&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/uploaders/picture_uploader.rb&#10;micropost_cont&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/microposts_controller.rb&#10;_micro&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/microposts/_micropost.html.erb&#10;home&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/home.html.erb&#10;Pictu&#9;null&#9;null&#10;Gemfile&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/Gemfile&#10;microposts_inter&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/microposts_interface_test.rb&#10;microposts.ym&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/fixtures/microposts.yml&#10;home.ht&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/home.html.erb&#10;micropos&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/microposts/_micropost.html.erb&#10;users&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;user.rb&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/models/user.rb&#10;route&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/routes.rb&#10;sta&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/static_pages_controller.rb&#10;stat&#9;null&#9;null&#10;microposts&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/microposts_controller.rb&#10;home.&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/home.html.erb&#10;stati&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/static_pages_controller.rb&#10;user/new&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb&#10;error&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/shared/_error_messages.html.erb&#10;static&#9;null&#9;null&#10;mic&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/microposts_controller.rb&#10;routes&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/routes.rb&#10;user&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;microposts_con&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/microposts_controller.rb&#10;a&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/application_controller.rb&#10;app&#9;null&#9;null&#10;users_cont&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;microposts_cont&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/controllers/microposts_controller_test.rb&#10;user_pr&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/users_profile_test.rb&#10;show&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/show.html.erb&#10;seed&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/db/seeds.rb&#10;_user&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/_user.html.erb&#10;custom&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;user_con&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;users/show&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/show.html.erb&#10;user_test&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/models/user_test.rb&#10;micropost_test&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/models/micropost_test.rb&#10;pa&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/password_resets_controller.rb" />
+    <property name="SearchEverywhereHistoryKey" value="carrier&#9;null&#9;null&#10;pic&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/uploaders/picture_uploader.rb&#10;mi&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/microposts_interface_test.rb&#10;skip&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/initializers/skip_image_resizing.rb&#10;micro&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/microposts_interface_test.rb&#10;micropost&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/models/micropost.rb&#10;micropost.rb&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/microposts_interface_test.rb&#10;pictu&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/uploaders/picture_uploader.rb&#10;form&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/shared/_micropost_form.html.erb&#10;micropo&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/microposts_controller.rb&#10;up&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/uploaders/picture_uploader.rb&#10;gem&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/Gemfile&#10;_form&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/shared/_micropost_form.html.erb&#10;micropost_cont&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/microposts_controller.rb&#10;_micro&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/microposts/_micropost.html.erb&#10;home&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/home.html.erb&#10;Pictu&#9;null&#9;null&#10;Gemfile&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/Gemfile&#10;microposts_inter&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/microposts_interface_test.rb&#10;microposts.ym&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/fixtures/microposts.yml&#10;home.ht&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/home.html.erb&#10;micropos&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/microposts/_micropost.html.erb&#10;users&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;user.rb&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/models/user.rb&#10;route&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/routes.rb&#10;sta&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/static_pages_controller.rb&#10;stat&#9;null&#9;null&#10;microposts&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/microposts_controller.rb&#10;home.&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/static_pages/home.html.erb&#10;stati&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/static_pages_controller.rb&#10;user/new&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/new.html.erb&#10;error&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/shared/_error_messages.html.erb&#10;static&#9;null&#9;null&#10;mic&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/microposts_controller.rb&#10;routes&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/config/routes.rb&#10;user&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;microposts_con&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/microposts_controller.rb&#10;a&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/application_controller.rb&#10;app&#9;null&#9;null&#10;users_cont&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;microposts_cont&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/controllers/microposts_controller_test.rb&#10;user_pr&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/integration/users_profile_test.rb&#10;show&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/show.html.erb&#10;seed&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/db/seeds.rb&#10;_user&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/_user.html.erb&#10;custom&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/assets/stylesheets/custom.scss&#10;user_con&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/controllers/users_controller.rb&#10;users/show&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/app/views/users/show.html.erb&#10;user_test&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/models/user_test.rb&#10;micropost_test&#9;FILE&#9;file:///Users/rnakamine/Development/rails-tutorial/sample_app/test/models/micropost_test.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -459,7 +445,7 @@
       <workItem from="1530440136794" duration="247000" />
       <workItem from="1530440405150" duration="522000" />
       <workItem from="1530446535672" duration="33666000" />
-      <workItem from="1530937324491" duration="53348000" />
+      <workItem from="1530937324491" duration="53813000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1526326616708</created>
@@ -472,7 +458,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193318000" />
+    <option name="totallyTimeSpent" value="193783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,20 +511,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/mail-2.7.0/lib/mail/fields/content_disposition_field.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -799,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/picture_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/carrierwave-1.2.2/lib/carrierwave/uploader/processing.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
@@ -848,6 +813,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/microposts_interface_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -855,10 +827,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/uploaders/picture_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="135">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bundle/ruby/2.4.0/gems/carrierwave-1.2.2/lib/carrierwave/utilities.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/carrier_wave.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
