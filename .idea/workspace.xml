@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cca85e3-6a59-4f05-8796-a14abb91948a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="4cca85e3-6a59-4f05-8796-a14abb91948a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -435,7 +433,7 @@
       <workItem from="1530440136794" duration="247000" />
       <workItem from="1530440405150" duration="522000" />
       <workItem from="1530446535672" duration="33666000" />
-      <workItem from="1530937324491" duration="54232000" />
+      <workItem from="1530937324491" duration="54503000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1526326616708</created>
@@ -448,7 +446,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194202000" />
+    <option name="totallyTimeSpent" value="194473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,7 +459,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32855567" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50061053" side_tool="true" weight="0.38368246" />
